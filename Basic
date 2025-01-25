@@ -1,0 +1,24 @@
+Q1: What is a Promise in JavaScript?
+
+Answer : 
+A Promise in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. 
+It provides a way to handle asynchronous code more cleanly compared to traditional callbacks.
+
+• 3 Key States of a Promise:
+1. Pending:
+The initial state of a Promise. It means the operation is still in progress and hasn’t resolved or rejected yet.
+
+2. Fulfilled:
+The operation has completed successfully, and the Promise is resolved with a value.
+
+3. Rejected:
+The operation has failed, and the Promise is rejected with a reason.
+
+
+• Common Examples of Promises:
+- Fetching data from API
+
+fetch('https://api.example.com/data')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
