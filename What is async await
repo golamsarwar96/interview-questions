@@ -22,3 +22,8 @@ fetch('https://api.example.com/data')
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.error(error));
+
+Q2: What is async/await?
+Answer : 
+async/await is a modern syntax in JavaScript that makes it easier to write and manage asynchronous code.
+It is built on top of Promises and allows you to write asynchronous operations in a way that looks and behaves like synchronous code.
